@@ -1,0 +1,4 @@
+--INSERT INTO `oauth_client_details` (`client_id`, `resource_ids`, `client_secret`, `scope`, `authorized_grant_types`, `web_server_redirect_uri`, `authorities`, `access_token_validity`, `refresh_token_validity`, `additional_information`, `autoapprove`) VALUES
+--('my-client-with-registered-redirect', 'oauth2-resource', NULL, 'read,trust', 'authorization_code', 'http://anywhere?key=value', 'ROLE_CLIENT', NULL, NULL, '{}', ''),
+--('my-client-with-secret', 'oauth2-resource', '$2a$10$VU5roLFpISSzKVKa6qz9NOHoYf68GySxd7reHhqo5MQfeeYHRbYnO', 'read', 'client_credentials,password', '', 'ROLE_CLIENT', NULL, NULL, '{}', ''),
+--('my-trusted-client', 'oauth2-resource', NULL, 'read,write,trust', 'password,authorization_code,refresh_token,implicit', '', 'ROLE_CLIENT,ROLE_TRUSTED_CLIENT', 60, NULL, '{}', '');
